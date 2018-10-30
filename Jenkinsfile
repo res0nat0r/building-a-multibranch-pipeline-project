@@ -10,11 +10,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pwd'
-                sh 'id'
-                sh 'hostname'
-                sh 'ls -l'
-                sh 'echo STEF > /tmp/stef'
+                sh 'npm install'
             }
         }
         stage('Test') {
