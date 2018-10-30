@@ -14,6 +14,7 @@ pipeline {
                 sh 'pwd'
                 sh 'id'
                 sh 'hostname'
+                sh 'ls -l'
             }
         }
         stage('Test') {
