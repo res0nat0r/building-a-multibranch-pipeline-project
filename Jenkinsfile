@@ -15,6 +15,8 @@ pipeline {
                 sh 'id'
                 sh 'hostname'
                 sh 'ls -l'
+                sh 'who am i'
+                sh 'npm install'
             }
         }
         stage('Test') {
