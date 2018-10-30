@@ -13,6 +13,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'id'
+                sh 'hostname'
             }
         }
         stage('Test') {
