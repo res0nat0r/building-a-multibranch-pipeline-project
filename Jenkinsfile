@@ -15,7 +15,7 @@ pipeline {
                 sh 'id'
                 sh 'hostname'
                 sh 'ls -l'
-                sh 'who am i'
+                sh 'whoami'
                 sh 'npm install'
             }
         }
