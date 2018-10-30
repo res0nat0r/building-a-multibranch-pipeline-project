@@ -15,8 +15,7 @@ pipeline {
                 sh 'id'
                 sh 'hostname'
                 sh 'ls -l'
-                sh 'whoami'
-                sh 'npm install'
+                sh 'echo STEF > /tmp/stef'
             }
         }
         stage('Test') {
